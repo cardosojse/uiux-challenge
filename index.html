@@ -14,7 +14,7 @@
 
     <title>Login | App</title>
   </head>
-  <body>
+  <body class="flex items-center justify-center w-screen h-screen m-auto">
     <div
       class="self-stretch self-stretch px-6 pt-4 pb-6 bg-white inline-flex flex-col justify-between items-start overflow-hidden"
     >
@@ -45,11 +45,11 @@
             <div
               class="self-stretch px-5 py-4 rounded-2xl outline outline-1 outline-offset-[-1px] outline-zinc-300 inline-flex justify-start items-center"
             >
-              <div
-                class="justify-start text-neutral-400 text-base font-normal font-['Epilogue']"
-              >
-                000.###.###-00
-              </div>
+              <input
+                type="text"
+                class="w-full text-neutral-400 text-base font-normal font-['Epilogue']"
+                placeholder="000.###.###-00"
+              />
             </div>
             <div
               class="self-stretch justify-start text-neutral-400 text-sm font-normal font-['Epilogue']"
@@ -75,18 +75,11 @@
             <div
               class="self-stretch px-5 py-4 relative rounded-2xl outline outline-1 outline-offset-[-1px] outline-zinc-300 inline-flex justify-start items-center"
             >
-              <div
-                class="justify-start text-neutral-400 text-base font-normal font-['Epilogue']"
-              >
-                ************
-              </div>
-              <div
-                class="w-6 h-6 left-[320px] top-[14px] absolute overflow-hidden"
-              >
-                <div
-                  class="w-6 h-3.5 left-[0.75px] top-[4.50px] absolute bg-neutral-400"
-                ></div>
-              </div>
+              <input
+                type="password"
+                class="w-full text-neutral-400 text-base font-normal font-['Epilogue']"
+                placeholder="************"
+              />
             </div>
             <div
               class="self-stretch justify-start text-neutral-400 text-sm font-normal font-['Epilogue']"
@@ -98,8 +91,8 @@
         <div
           class="self-stretch flex flex-col justify-start items-start gap-2.5"
         >
-          <div
-            class="self-stretch px-8 py-4 bg-black rounded-2xl inline-flex justify-between items-center"
+          <button
+            class="cursor-pointer self-stretch px-8 py-4 bg-black rounded-2xl inline-flex justify-between items-center"
           >
             <div
               class="justify-start text-white text-xl font-medium font-['Epilogue']"
@@ -111,16 +104,16 @@
                 class="w-2 h-2 left-[3.50px] top-[3.50px] absolute bg-white"
               ></div>
             </div>
-          </div>
-          <div
-            class="self-stretch px-5 py-4 rounded-2xl outline outline-1 outline-offset-[-1px] outline-zinc-300 inline-flex justify-center items-center"
+          </button>
+          <button
+            class="cursor-pointer self-stretch px-5 py-4 rounded-2xl outline outline-1 outline-offset-[-1px] outline-zinc-300 inline-flex justify-center items-center"
           >
             <div
               class="justify-start text-black text-xl font-medium font-['Epilogue']"
             >
               Esqueci minha senha
             </div>
-          </div>
+          </button>
         </div>
       </div>
     </div>
