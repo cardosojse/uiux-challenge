@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+    />
+
+    <title>Login | App</title>
+  </head>
+  <body class="flex items-center justify-center w-screen h-screen m-auto">
+    <div
+      class="bg-white inline-flex flex-col justify-start items-start"
+    >
+      <div
+        class="self-stretch flex-1 px-6 pt-4 pb-6 bg-white flex flex-col justify-between items-start overflow-hidden"
+      >
+        <div class="w-64 pt-14 inline-flex justify-between items-start">
+          <div class="w-64 justify-start">
+            <span class="text-black text-3xl font-medium font-['Epilogue']"
+              >Adicionar novo familiar<br /></span
+            ><span class="text-black text-lg font-normal font-['Epilogue']"
+              ><br /></span
+            ><span
+              class="text-neutral-400 text-lg font-normal font-['Epilogue']"
+              >Para acessar o sistema, insira  seus dados de acesso.</span
+            >
+          </div>
+        </div>
+        <div class="self-stretch flex flex-col justify-start items-start gap-6">
+          <div
+            class="self-stretch flex flex-col justify-start items-start gap-4"
+          >
+            <div
+              class="self-stretch flex flex-col justify-start items-start gap-2.5"
+            >
+              <div class="justify-start">
+                <span class="text-black text-base font-normal font-['Epilogue']"
+                  >CPF </span
+                ><span
+                  class="text-red-700 text-base font-normal font-['Epilogue']"
+                  >*</span
+                >
+              </div>
+              <div
+                class="self-stretch px-5 py-4 rounded-2xl outline outline-1 outline-offset-[-1px] outline-zinc-300 inline-flex justify-start items-center"
+              >
+                <div
+                  class="justify-start text-neutral-400 text-base font-normal font-['Epilogue']"
+                >
+                  000.###.###-00
+                </div>
+              </div>
+              <div
+                class="self-stretch justify-start text-neutral-400 text-sm font-normal font-['Epilogue']"
+              >
+                Informe o seu CPF do familiar
+              </div>
+            </div>
+            <div
+              class="self-stretch flex flex-col justify-start items-start gap-2.5"
+            >
+              <div
+                class="self-stretch inline-flex justify-start items-start gap-2.5"
+              >
+                <div class="justify-start">
+                  <span
+                    class="text-black text-base font-normal font-['Epilogue']"
+                    >Nome</span
+                  ><span
+                    class="text-red-700 text-base font-normal font-['Epilogue']"
+                    >*</span
+                  >
+                </div>
+              </div>
+              <div
+                class="self-stretch px-5 py-4 relative rounded-2xl outline outline-1 outline-offset-[-1px] outline-zinc-300 inline-flex justify-start items-center"
+              >
+                <div
+                  class="justify-start text-neutral-400 text-base font-normal font-['Epilogue']"
+                >
+                  John Doe
+                </div>
+                <div
+                  class="w-6 h-6 left-[320px] top-[14px] absolute overflow-hidden"
+                >
+                  <div
+                    class="w-6 h-3.5 left-[0.75px] top-[4.50px] absolute bg-neutral-400"
+                  ></div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="self-stretch flex flex-col justify-start items-start gap-2.5"
+            >
+              <div
+                class="self-stretch inline-flex justify-start items-start gap-2.5"
+              >
+                <div class="justify-start">
+                  <span
+                    class="text-black text-base font-normal font-['Epilogue']"
+                    >Data de nascimento</span
+                  ><span
+                    class="text-red-700 text-base font-normal font-['Epilogue']"
+                    >*</span
+                  >
+                </div>
+              </div>
+              <div
+                class="self-stretch px-5 py-4 relative rounded-2xl outline outline-1 outline-offset-[-1px] outline-zinc-300 inline-flex justify-start items-center"
+              >
+                <div
+                  class="justify-start text-neutral-400 text-base font-normal font-['Epilogue']"
+                >
+                  01/01/1999
+                </div>
+                <div
+                  class="w-6 h-6 left-[320px] top-[14px] absolute overflow-hidden"
+                >
+                  <div
+                    class="w-6 h-3.5 left-[0.75px] top-[4.50px] absolute bg-neutral-400"
+                  ></div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="self-stretch flex flex-col justify-start items-start gap-2.5"
+            >
+              <div
+                class="self-stretch inline-flex justify-start items-start gap-2.5"
+              >
+                <div class="justify-start">
+                  <span
+                    class="text-black text-base font-normal font-['Epilogue']"
+                    >Genero</span
+                  ><span
+                    class="text-red-700 text-base font-normal font-['Epilogue']"
+                    >*</span
+                  >
+                </div>
+              </div>
+              <div
+                class="self-stretch px-5 py-4 relative rounded-2xl outline outline-1 outline-offset-[-1px] outline-zinc-300 inline-flex justify-start items-center"
+              >
+                <div
+                  class="justify-start text-neutral-400 text-base font-normal font-['Epilogue']"
+                >
+                  Masculino
+                </div>
+                <div
+                  class="w-6 h-6 left-[320px] top-[14px] absolute overflow-hidden"
+                >
+                  <div
+                    class="w-4 h-2 left-[3.75px] top-[8.25px] absolute bg-black"
+                  ></div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="self-stretch flex flex-col justify-start items-start gap-2.5"
+            >
+              <div
+                class="self-stretch inline-flex justify-start items-start gap-2.5"
+              >
+                <div class="justify-start">
+                  <span
+                    class="text-black text-base font-normal font-['Epilogue']"
+                    >Foto</span
+                  ><span
+                    class="text-red-700 text-base font-normal font-['Epilogue']"
+                    >*</span
+                  >
+                </div>
+              </div>
+              <div
+                class="self-stretch px-5 py-4 rounded-2xl outline outline-1 outline-offset-[-1px] outline-zinc-300 inline-flex justify-start items-center"
+              >
+                <div
+                  class="justify-start text-neutral-400 text-base font-normal font-['Epilogue']"
+                >
+                  Selecione a imagem
+                </div>
+              </div>
+            </div>
+            <div
+              class="self-stretch flex flex-col justify-start items-start gap-2.5"
+            >
+              <div
+                class="self-stretch inline-flex justify-start items-start gap-2.5"
+              >
+                <div class="justify-start">
+                  <span
+                    class="text-black text-base font-normal font-['Epilogue']"
+                    >Número</span
+                  ><span
+                    class="text-red-700 text-base font-normal font-['Epilogue']"
+                    >*</span
+                  >
+                </div>
+              </div>
+              <div
+                class="self-stretch px-5 py-4 rounded-2xl outline outline-1 outline-offset-[-1px] outline-zinc-300 inline-flex justify-start items-center"
+              >
+                <div
+                  class="justify-start text-neutral-400 text-base font-normal font-['Epilogue']"
+                >
+                  (99) 9 9952-0079
+                </div>
+              </div>
+              <div
+                class="self-stretch justify-start text-neutral-400 text-sm font-normal font-['Epilogue']"
+              >
+                Esse telefone será acionado em caso de emergencia.
+              </div>
+            </div>
+          </div>
+          <div
+            class="self-stretch flex flex-col justify-start items-start gap-2.5"
+          >
+            <div
+              class="self-stretch px-8 py-4 bg-black rounded-2xl inline-flex justify-between items-center"
+            >
+              <div
+                class="justify-start text-white text-xl font-medium font-['Epilogue']"
+              >
+                Finalizar cadastro
+              </div>
+              <div class="w-4 h-4 relative overflow-hidden">
+                <div
+                  class="w-2 h-2 left-[3.50px] top-[3.50px] absolute bg-white"
+                ></div>
+              </div>
+            </div>
+            <div
+              class="self-stretch px-5 py-4 rounded-2xl outline outline-1 outline-offset-[-1px] outline-zinc-300 inline-flex justify-center items-center"
+            >
+              <div
+                class="justify-start text-black text-xl font-medium font-['Epilogue']"
+              >
+                Voltar
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="self-stretch py-6 border-t border-zinc-100 inline-flex justify-center items-center gap-2.5"
+      >
+        <div class="justify-start">
+          <span class="text-black text-base font-medium font-['Epilogue']"
+            >Tem alguma duvida? </span
+          ><span
+            class="text-black text-base font-medium font-['Epilogue'] underline"
+            >Fale conosco</span
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
